@@ -1,0 +1,346 @@
+blocks:
+  - regions:
+      - id: region1
+        blocks:
+          - type: layout
+            metadata: grid/grid-dynamic
+            path: grid/grid-dynamic
+            regions:
+              - columns: 2
+              - columns: 8
+                class: m-stack-top-lg
+                blocks:
+                  - type: header
+                    class: h1 m-stack-lg
+                    h2:
+                      - MobileBank.activity2
+                  - type: text
+                    class: subtitle
+                    items:
+                      - description: subtitle
+                  - type: text
+                    class: p1 bold font-color-neutral-900 m-stack-xl
+                    items:
+                      - description: supportText
+          - regions:
+              - columns: 2
+              - columns: 1
+              - columns: 6
+                blocks:
+                  - type: layout
+                    metadata: grid/grid-static
+                    path: grid/grid-static
+                    regions:
+                      - columns: 8
+                        blocks:
+                          - type: container
+                            class: >-
+                              bg-color-neutral-100 p-inset-md elevation-2
+                              border-radius-xs
+                            blocks:
+                              - type: form
+                                form_type: generic
+                                feedback:
+                                  region: Sergio
+                                  blocks:
+                                    - type: container
+                                      class: >-
+                                        bg-color-neutral-100 p-inset-md
+                                        elevation-2 border-radius-xs
+                                      blocks:
+                                        - type: container
+                                          class: p-inset-xs
+                                          blocks:
+                                            - type: text
+                                              class: p2 italic m-stack-top-sm p-stack-xl
+                                              items:
+                                                - description: feedbackText
+                                            - regions:
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: icon
+                                                      icon: fal fa-browser
+                                                      size: fa-lg
+                                                      class: >-
+                                                        text-center m-stack-top-xxs
+                                                        p-inline-left-xs
+                                                        font-color-interactive-500
+                                                - columns: 6
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 font-color-neutral-900
+                                                      items:
+                                                        - description: tableItem1
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 bold font-color-neutral-800
+                                                      items:
+                                                        - description: tableValue1
+                                              type: layout
+                                              path: grid/grid-static
+                                              class: m-inline-lg
+                                            - type: divider
+                                            - regions:
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: icon
+                                                      icon: fal fa-mobile-alt
+                                                      size: fa-lg
+                                                      class: >-
+                                                        text-center m-stack-top-xxs
+                                                        p-inline-left-sm
+                                                        font-color-interactive-500
+                                                - columns: 6
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 font-color-neutral-900
+                                                      items:
+                                                        - description: tableItem2
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 bold font-color-neutral-800
+                                                      items:
+                                                        - description: tableValue2
+                                              type: layout
+                                              path: grid/grid-static
+                                              class: m-inline-lg
+                                            - type: divider
+                                            - regions:
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: icon
+                                                      icon: fal fa-university
+                                                      size: fa-lg
+                                                      class: >-
+                                                        text-center m-stack-top-xxs
+                                                        p-inline-left-xs
+                                                        font-color-interactive-500
+                                                - columns: 6
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 font-color-neutral-900
+                                                      items:
+                                                        - description: tableItem3
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 bold font-color-neutral-800
+                                                      items:
+                                                        - description: tableValue3
+                                              type: layout
+                                              path: grid/grid-static
+                                              class: m-inline-lg
+                                            - type: divider
+                                            - regions:
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: icon
+                                                      icon: fal fa-money-bill
+                                                      size: fa-lg
+                                                      class: >-
+                                                        text-center m-stack-top-xxs
+                                                        p-inline-left-xxs
+                                                        font-color-interactive-500
+                                                - columns: 6
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 font-color-neutral-900
+                                                      items:
+                                                        - description: tableItem4
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 bold font-color-neutral-800
+                                                      items:
+                                                        - description: tableValue4
+                                              type: layout
+                                              path: grid/grid-static
+                                              class: m-inline-lg
+                                            - type: divider
+                                            - regions:
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: icon
+                                                      icon: fal fa-phone
+                                                      size: fa-lg
+                                                      class: >-
+                                                        text-center m-stack-top-xxs
+                                                        p-inline-left-xxs
+                                                        font-color-interactive-500
+                                                - columns: 6
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 font-color-neutral-900
+                                                      items:
+                                                        - description: tableItem5
+                                                - columns: 1
+                                                  blocks:
+                                                    - type: text
+                                                      class: p1 bold font-color-neutral-800
+                                                      items:
+                                                        - description: tableValue5
+                                              type: layout
+                                              path: grid/grid-static
+                                              class: m-inline-lg
+                                            - type: divider
+                                data:
+                                  key: bs2-form-data1
+                                  service: local
+                                  submit:
+                                    class: btn-primary btn-block m-stack-top-lg
+                                    text: Submit
+                                fields:
+                                  - type: container
+                                    class: >-
+                                      bg-color-neutral-100 p-inset-md
+                                      elevation-1 border-radius-xs
+                                    blocks:
+                                      - type: rank
+                                        id: sortable-list
+                                        srHeader: Rank the sortables
+                                        instructions: instructions
+                                        sortables:
+                                          - id: sortable1
+                                            type: container
+                                            blocks:
+                                              - type: container
+                                                flex: true
+                                                justify: flex-start
+                                                align: start
+                                                blocks:
+                                                  - type: icon
+                                                    icon: fal fa-money-bill
+                                                    size: fa-lg
+                                                    class: >-
+                                                      m-stack-top-xxs
+                                                      font-color-interactive-500
+                                                  - type: text
+                                                    class: p1 p-inline-left-xs
+                                                    items:
+                                                      - description: ATM
+                                          - id: sortable2
+                                            type: container
+                                            blocks:
+                                              - type: container
+                                                flex: true
+                                                justify: flex-start
+                                                align: start
+                                                blocks:
+                                                  - type: icon
+                                                    icon: fal fa-mobile-alt
+                                                    size: fa-lg
+                                                    class: >-
+                                                      m-stack-top-xxs p-inline-left-xs
+                                                      font-color-interactive-500
+                                                  - type: text
+                                                    class: p1 p-inline-left-xs
+                                                    items:
+                                                      - description: Mobile banking
+                                          - id: sortable3
+                                            type: container
+                                            blocks:
+                                              - type: container
+                                                flex: true
+                                                justify: flex-start
+                                                align: start
+                                                blocks:
+                                                  - type: icon
+                                                    icon: fal fa-browser
+                                                    size: fa-lg
+                                                    class: m-inset-xxs font-color-interactive-500
+                                                  - type: text
+                                                    class: p1 p-inline-left-xxs
+                                                    items:
+                                                      - description: Online banking
+                                          - id: sortable3
+                                            type: container
+                                            blocks:
+                                              - type: container
+                                                flex: true
+                                                justify: flex-start
+                                                align: start
+                                                blocks:
+                                                  - type: icon
+                                                    icon: fal fa-university
+                                                    size: fa-lg
+                                                    class: m-inset-xxs font-color-interactive-500
+                                                  - type: text
+                                                    class: p1 p-inline-left-xxs
+                                                    items:
+                                                      - description: Visit a branch
+                                          - id: sortable3
+                                            type: container
+                                            blocks:
+                                              - type: container
+                                                flex: true
+                                                justify: flex-start
+                                                align: start
+                                                blocks:
+                                                  - type: icon
+                                                    icon: fal fa-phone
+                                                    size: fa-lg
+                                                    class: m-inset-xxs font-color-interactive-500
+                                                  - type: text
+                                                    class: p1 p-inline-left-xxs
+                                                    items:
+                                                      - description: Call an agent
+                  - type: container
+                    class: Sergio
+            type: layout
+            metadata: grid/grid-dynamic
+            path: grid/grid-dynamic
+            class: m-stack-lg
+          - regions:
+              - columns: 2
+              - columns: 5
+              - columns: 4
+                blocks:
+                  - type: container
+                    class: >-
+                      m-stack-top-xxl bg-color-neutral-100 elevation-2
+                      border-radius-md
+                    blocks:
+                      - type: container
+                        blocks:
+                          - type: text
+                            class: >-
+                              p1 bold font-color-neutral-900 p-inline-left-sm
+                              m-stack-top-md
+                            items:
+                              - description: nextpage9384
+                        class: m-inline-md
+                      - type: container
+                        class: m-stack-sm p-inline-sm
+                        flex: true
+                        justify: space-between
+                        blocks:
+                          - type: header
+                          - parameters:
+                              override_enabled: true
+                              direction: forward
+                              text: partial_molecules_navigate_parameters_text_1
+                              title: tableItem3
+                              button_class: btn-primary m-stack-top-sm
+                            configs:
+                              init: true
+                            type: component
+                            path: partial/molecules/navigate
+            type: layout
+            metadata: grid/grid-dynamic
+            path: grid/grid-dynamic
+            class: m-stack-md
+    type: layout
+    metadata: grid/maxwidth
+    path: grid/maxwidth
+    class: bg-color-neutral-200
+  - type: layout
+    metadata: grid/grid-dynamic
+    path: grid/grid-dynamic
+    class: bg-color-neutral-200
+    regions:
+      - columns: 12
+        blocks:
+          - type: image
+            svg: images/backgrounds/achieve_townA_02.svg
